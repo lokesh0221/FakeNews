@@ -17,7 +17,7 @@ import streamlit as st
 
 st.title("Fake News Detection System")
 def fakenewsdetection():
-    user = st.text_area("Enter Any News Headline: ")
+    user = st.text_input("Enter Any News Headline: ")
     if len(user) < 1:
         st.write("  ")
     else:
