@@ -11,26 +11,7 @@ A lightweight, easy-to-use tool for detecting fake news using machine learning a
 - **Prediction Interface** – Simple script or function to predict whether a new article is real or fake.
 - **Extensible Design** – Easily add new models and datasets.
 
-## 📁 Repository Structure
 
-FakeNews/
-├── data/
-│ ├── train.csv
-│ └── test.csv
-├── notebooks/
-│ └── EDA.ipynb
-├── src/
-│ ├── data_loader.py
-│ ├── train.py
-│ ├── evaluate.py
-│ ├── predict.py
-│ └── utils.py
-├── models/
-│ └── fake_news_model.pkl
-├── tests/
-│ └── test_*.py
-├── requirements.txt
-└── README.md
 
 
 
